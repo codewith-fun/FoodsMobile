@@ -3,7 +3,7 @@ plugins {
     kotlin(KotlinPlugins.android)
     kotlin(KotlinPlugins.kapt)
     kotlin(KotlinPlugins.serialization) version Kotlin.version
-//    id(Plugins.hilt)
+//    id(Plugins.hilt)// Right now i remove because its not found any kind of source
 }
 
 dependencies {
